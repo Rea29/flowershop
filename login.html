@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <header>
-            <h3>Login</h3>
-            <div id="login">
-                <a href="./login.html">Login</a>
-                <button> Sign up</button>
-            </div>
-            <form>
-              <input type="text" placeholder="Username" />
-              <input type="email" placeholder="Email Address" />
-              <div class="btns">
-                <a href="#">Forgot Password?</a>
-                <button>Log in</button>
-              </div>
-            </form>
-          </div>
-        </section>
-      </main>
+  <form action="action_page.php" method="post">
+    <!-- <div class="imgcontainer">
+      <img src="login-vector.png" alt="Avatar" class="avatar">
+    </div> -->
+  
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+  
+      <label for="psw"><b>Password</b> </label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+
+        <div class="button">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </label>
+    </div>
+  
+     
+  </form>
 </body>
 </html>
