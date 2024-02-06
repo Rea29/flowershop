@@ -1,0 +1,50 @@
+
+*{
+    background-image: url("home.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100vh;
+    
+    
+}
+.logo{
+    text-align: left;
+    padding:14px ;
+    display: inline;
+}
+.navbar{
+    display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+.log{
+    text-align: left;
+    float: right;
+    position: static;
+    
+  
+}
+.hero{
+    font-size: 20px;
+}
+.image{
+    float: right;
+}
+.row{
+    width: 100% !important;
+
+}
+ .column {
+        float: left;
+        width: 33.33%;
+        padding: 10px;
+        height: 300px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
